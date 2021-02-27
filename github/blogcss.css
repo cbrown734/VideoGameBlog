@@ -1,0 +1,70 @@
+.head
+{
+  text-align: center;
+   background: gray;
+    padding: 30px;
+    width:750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation
+{
+border: 50px;
+text-align: center;
+}
+
+body
+{
+  background-color:  #453f3c;
+}
+
+
+.about
+{
+  text-align: center;
+   background: gray;
+    padding: 30px;
+    width:300px;
+    margin-left: auto;
+    position: relative;
+    top:100px;
+}
+
+
+
+.recommended
+{
+  text-align: center;
+   background: gray;
+    padding: 30px;
+    width:300px;
+    margin-left: auto;
+    position: relative;
+    top:300px;
+}
+
+
+.firstblog
+{
+  text-align: left;
+  background: gray;
+  padding: 30px;
+  width:750px;
+  margin-right: auto;
+  position: relative;
+  left:200px;
+  bottom:175px;
+}
+
+.secondblog
+{
+  text-align: left;
+  background: gray;
+  padding: 30px;
+  width:750px;
+  margin-right: auto;
+  position: relative;
+  left:200px;
+  top:100px;
+}
