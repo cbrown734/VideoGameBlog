@@ -1,0 +1,32 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  overflow: hidden;
+}
+
+#background
+{
+  width:100%;
+  height:100vh;
+  position: absolute;
+}
+
+.about
+{
+  font-family: monospace;
+  font-size: 18px;
+  text-align: center;
+  background: gray;
+  padding: 30px;
+  width: 900px;
+  position: absolute;
+  left: 450px;
+  top: 250px;
+  background: rgb(204, 204, 204);
+  background: rgba(204, 204, 204, 0.64);
+}

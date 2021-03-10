@@ -1,0 +1,139 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  overflow: ;
+}
+
+#background
+{
+  width: 100%;
+  height: 175vh;
+  position: absolute;
+}
+
+.top
+{
+    position: relative;
+    text-align: center;
+    background: gray;
+    padding: 15px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+    background: rgb(204, 204, 204);
+    background: rgba(204, 204, 204, 0.64);
+    font-family: monospace;
+}
+
+.navigation
+{
+  border: 10px;
+  text-align: center;
+  position: relative;
+  font-family: monospace;
+  top: 70px;
+  font-size: 16px;
+}
+
+.recommended
+{
+    text-align: center;
+    background: gray;
+    padding: 30px;
+    width: 300px;
+    left: 750px;
+    position: relative;
+    top: 250px;
+    left: 1500px;
+    background: rgb(204, 204, 204);
+    background: rgba(204, 204, 204, 0.64);
+    font-family: monospace;
+}
+
+.other
+{
+    text-align: center;
+    background: gray;
+    padding: 30px;
+    width:300px;
+    position: relative;
+    top:500px;
+    left: 1500px;
+    background: rgb(204, 204, 204);
+    background: rgba(204, 204, 204, 0.64);
+    font-family: monospace;
+    font-size: 16px;
+}
+
+
+.firstblog
+{
+  text-align: left;
+  background: gray;
+  padding: 30px;
+  width:750px;
+  margin-right: auto;
+  position: relative;
+  left:175px;
+  bottom:160px;
+  background: rgb(204, 204, 204);
+  background: rgba(204, 204, 204, 0.64);
+  font-family: monospace;
+}
+
+.secondblog
+{
+  text-align: left;
+  background: gray;
+  padding: 30px;
+  width:750px;
+  margin-right: auto;
+  position: relative;
+  left:175px;
+  bottom:0px;
+  background: rgb(204, 204, 204);
+  background: rgba(204, 204, 204, 0.64);
+  font-family: monospace;
+}
+
+
+.thirdblog
+{
+  text-align: left;
+  background: gray;
+  padding: 30px;
+  width:750px;
+  margin-right: auto;
+  position: relative;
+  left:175px;
+  bottom:-175px;
+  background: rgb(204, 204, 204);
+  background: rgba(204, 204, 204, 0.64);
+  font-family: monospace;
+}
+
+footer
+{
+  position: relative;
+  text-align: center;
+  bottom: -750px;
+  font-family: monospace;
+  font-size: 14px;
+  color: ;
+}
+
+h2
+{
+  font-size: 16pt;
+}
+
+h1
+{
+  font-size: 32pt;
+}
