@@ -12,7 +12,7 @@ body
 #background
 {
   width: 100%;
-  height: 340vh;
+  height: 314vh;
   position: absolute;
 }
 
@@ -48,11 +48,12 @@ body
     padding: 30px;
     width: 300px;
     position: relative;
-    top: 550px;
+    top: 400px;
     left: 1300px;
     background: rgb(204, 204, 204);
     background: rgba(204, 204, 204, 0.64);
     font-family: monospace;
+    font-size: 16px;
 }
 
 .other
@@ -62,17 +63,17 @@ body
     padding: 30px;
     width:  300px;
     position: relative;
-    top: 950px;
+    top: 1200px;
     left: 1300px;
     background: rgb(204, 204, 204);
     background: rgba(204, 204, 204, 0.64);
     font-family: monospace;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .featured
 {
-  top: -405px;
+  top: -600px;
   left: 175px;
   background: gray;
   padding: 30px;
@@ -94,10 +95,16 @@ body
   margin-right: auto;
   position: relative;
   left: 175px;
-  bottom: 400px;
+  bottom: 575px;
   background: rgb(204, 204, 204);
   background: rgba(204, 204, 204, 0.64);
   font-family: monospace;
+}
+
+.leafimage
+{
+  height:327px;
+  width:582px;
 }
 
 .secondblog
@@ -109,12 +116,18 @@ body
   margin-right: auto;
   position: relative;
   left: 175px;
-  bottom: 350px;
+  bottom: 575px;
   background: rgb(204, 204, 204);
   background: rgba(204, 204, 204, 0.64);
   font-family: monospace;
+  overflow: auto;
 }
 
+.spelunkyimage
+{
+  height:327px;
+  width:582px;
+}
 
 .thirdblog
 {
@@ -125,7 +138,7 @@ body
   margin-right: auto;
   position: relative;
   left: 175px;
-  bottom: 300px;
+  bottom: 575px;
   background: rgb(204, 204, 204);
   background: rgba(204, 204, 204, 0.64);
   font-family: monospace;
@@ -135,9 +148,9 @@ footer
 {
   position: relative;
   text-align: center;
-  bottom: 100px;
+  bottom: 300px;
   font-family: monospace;
-  font-size: 16px;
+  font-size: 18px;
   color: ;
 }
 
@@ -154,6 +167,11 @@ h2
 h4
 {
   font-size: 28pt;
+}
+
+h5
+{
+  font-size: 12pt;
 }
 
 video
