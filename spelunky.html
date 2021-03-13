@@ -9,25 +9,9 @@
 
   <body>
 
-    <div id="background"></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.trunk.min.js"></script>
-      <script>
-        VANTA.TRUNK({
-          el: "#background",
-          mouseControls: true,
-          touchControls: true,
-          gyroControls: false,
-          minHeight: 200.00,
-          minWidth: 200.00,
-          scale: 1.00,
-          scaleMobile: 1.00,
-          color: 0xb96b26,
-          backgroundColor: 0x1f1f22,
-          spacing: 10.00,
-          chaos: 10.00
-                  })
-    </script>
+    <video autoplay loop class="background" muted plays-inline>
+      <source src="spelunkybackground.mp4" type="video/mp4">
+    </video>
 
     <div class="post">
 
